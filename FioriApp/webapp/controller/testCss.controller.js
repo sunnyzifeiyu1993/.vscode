@@ -1,3 +1,4 @@
+// just for test,unused int the runtime
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageToast"
