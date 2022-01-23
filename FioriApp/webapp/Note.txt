@@ -1,4 +1,9 @@
 解决fatal: unable to access 'https://github.com/...': OpenSSL SSL_read: Connection was aborted, errno 10053
 restore
+
+git config --global --unset http.proxy
+ git config --global --unset https.proxy
 git config http.sslVerify "false"
+
+
 
